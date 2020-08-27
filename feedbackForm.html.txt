@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            covid19 feedback
+        </title>
+        <link rel="stylesheet" href="feedbackForm.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Covid-19 feedback form</h2>
+            <form action="">
+                <input type="text" placeholder="First name"><br><br>
+                <input type="text" placeholder="Last name"><br><br>
+                <input type="number" placeholder="Age"><br><br> 
+                <input type="text" placeholder="Hospital name"><br><br>
+                <input type="text" placeholder="Address"><br><br>
+                <input type="date" placeholder="Date of Admission"><br><br>
+                <input type="date" placeholder="Date of Discharge"><br><br>
+            
+                <p>Gender<br><br>
+                <input type="radio"  name="gender" value="male" id="male" /><label for="male">Male</label><br><br>
+                <input type="radio"  name="gender" value="female" id="female"><label for="female">Female</label><br><br>
+                <input type="radio"  name="gender" value="other" id="other"><label for="others">Others</label><br><br>
+                </p>
+                
+                <input type="text" placeholder="Symptoms"><br><br>
+                <input type="number" placeholder="phone number"><br><br>
+            
+                <button>submit</button>
+
+            </form>
+        </div>
+
+    </body>
+</html>
